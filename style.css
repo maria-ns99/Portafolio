@@ -16,4 +16,53 @@ background-color: #8A79BD;
 #app{
     color: #87509D;
 }
-
+.boton-cv{
+    background-color: #87509D;
+    color: #F1ECDE;
+}
+.caja-habilidades{
+    background-color: #C29BD3
+}
+.btn-proyecto{
+    background-color: #87509D;
+}
+.btn-proyecto a{
+    text-decoration: none;
+    color: #F1ECDE;
+}
+.card .card-title{
+    color: #5C3576;
+    font-weight: bold;
+}
+.card-text{
+    text-align: justify; /* Justifica el texto */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Opcional: centra horizontalmente */
+}
+#contacto{
+    background-color: #C29BD3;
+    color: #5C3576;
+}
+.btn{
+    color: #F1ECDE;
+}
+#btn-contacto{
+    background-color: #5C3576;
+    color: #F1ECDE;
+}
+#btn-contacto:hover{
+    background-color: #87509D;
+}
+footer li a{
+    color:#87509D;
+}
+footer span a{
+    text-decoration: none;
+    color: #5C3576;
+}
+.fs-4{
+    color: #F1ECDE;
+}
+#flor{
+    color: #F1ECDE;
+}

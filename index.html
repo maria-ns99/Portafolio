@@ -29,7 +29,7 @@
 
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <i class="bi bi-flower1 p-3"></i>
+            <i id="flor" class="bi bi-flower1 p-3"></i>
 
             <span class="fs-4">Rosario Narciso Sanchez</span>
         </a>
@@ -56,12 +56,13 @@
                         rodean. Entre mis hobbies se encuentran leer, el cine, hacer ejercicio y tocar la guitarra. Soy
                         apasionada por aprender cosas nuevas y siempre estoy abierta a nuevos retos y oportunidades.</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">CV</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">CV</button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Habilidades -->
+         <div class="caja-habilidades">
         <div class=" habilidades container px-4 py-5" id="hanging-icons habilidades">
             <h2 class="pb-2 border-bottom">Habilidades</h2>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -106,9 +107,10 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- Proyectos -->
-        <div id="proyectos" class=" proyectos container">
+        <div id="proyectos" class=" proyectos container mt-5">
             <h2 class="pb-2 border-bottom">Proyectos</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
@@ -119,9 +121,9 @@
                             <p class="card-text">Clon Pinterest</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
                                             href="https://pinterest-clon-three-navy.vercel.app/">Ver</a></button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
                                             href="https://github.com/maria-ns99/pinterest-clon">Github</a></button>
                                 </div>
                                 <small class="text-body-secondary">HTML, CSS, JS</small>
@@ -137,9 +139,9 @@
                             <p class="card-text">Mi Primer Sitio Web</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
                                             href="https://mi-primer-sitio-web-rho.vercel.app/">Ver</a></button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
                                             href="https://github.com/maria-ns99/Mi-Primer-Sitio-Web">Github</a></button>
                                 </div>
                                 <small class="text-body-secondary">HTML, CSS, JSs</small>
@@ -155,9 +157,9 @@
                             <p class="card-text">Pumita</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
                                             href="direccion del sitio">Ver</a></button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
+                                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
                                             href="direccion del sitio">Github</a></button>
                                 </div>
                                 <small class="text-body-secondary">HTML, CSS, JS</small>
@@ -180,10 +182,10 @@
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
                             <!-- Inicio Card -->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card border-0" style="width: 18rem;">
                                 <img src="assets/Anel Montes de Oca.webp" class="card-img-top rounded-circle"
                                     alt="imagen testimonio">
-                                <h5 class="card-title text-center">Anel Montes de Oca</h5>
+                                <h5 class="card-title text-center mt-3">Anel Montes de Oca</h5>
                                 <h6 class="card-subtitle text-center text-body-secondary">Mentora en Tecnolochicas Pro
                                 </h6>
                                 <div class="card-body">
@@ -202,10 +204,10 @@
                     <div class="carousel-item">
                         <div class="d-flex justify-content-center">
                             <!-- Inicio Card -->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card border-0" style="width: 18rem;">
                                 <img src="assets/Carolina Estrada López.jpg" class="card-img-top rounded-circle"
                                     alt="imagen testimonio">
-                                <h5 class="card-title text-center">Carolina Estrada López</h5>
+                                <h5 class="card-title text-center mt-3">Carolina Estrada López</h5>
                                 <h6 class="card-subtitle text-center text-body-secondary">Coordinadora de Marketing en
                                     StartUp EcoTrend</h6>
                                 <div class="card-body">
@@ -224,10 +226,10 @@
                     <div class="carousel-item">
                         <div class="d-flex justify-content-center">
                             <!-- Inicio Card -->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card border-0" style="width: 18rem;">
                                 <img src="assets/José Luis Ramirez Ortega.jpg" class="card-img-top rounded-circle"
                                     alt="imagen testimonio">
-                                <h5 class="card-title text-center">José Luis Ramirez Ortega</h5>
+                                <h5 class="card-title text-center mt-3">José Luis Ramirez Ortega</h5>
                                 <h6 class="card-subtitle text-center text-body-secondary">Gerente de Operaciones en
                                     Logística Verde</h6>
                                 <div class="card-body">
@@ -264,14 +266,14 @@
                 <p class="lead mb-4">¡Tu aliada estratégica para lograr resultados exitosos!</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <a href="mailto:marianarcisosanchez99@gmail.com">
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Escribeme</button>
+                        <button id="btn-contacto" type="button" class="btn btn-secondar btn-lg px-4">Escribeme</button>
                     </a>
                 </div>
             </div>
         </div>
 
     </main>
-
+<!-- Footer -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
@@ -284,13 +286,13 @@
         </div>
 
         <ul class="nav px-5 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
+            <li class="ms-3"><a class="" href="#"><svg class="bi" width="24" height="24">
                         <use xlink:href="https://www.linkedin.com/"></use>
                     </svg><i class="fs-2 bi bi-linkedin"></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
+            <li class="ms-3"><a class="" href="#"><svg class="bi" width="24" height="24">
                         <use xlink:href="https://github.com/maria-ns99"></use>
                     </svg><i class="fs-2 bi-github"></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
+            <li class="ms-3"><a class="" href="#"><svg class="bi" width="24" height="24">
                         <use xlink:href="https://www.instagram.com/mariianscx/profilecard/?igsh=MTZzdTlzMDc5M2RsMA==">
                         </use>
                     </svg><i class="fs-2 bi-instagram"></i></a></li>
